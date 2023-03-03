@@ -147,3 +147,11 @@ button:hover{
         font-size: small;
     }   
 }
+@media screen and (orientation:landscape) {
+    body {
+        background-color: var(--Pale-blue);
+        background-image: ;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
