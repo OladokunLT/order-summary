@@ -10,9 +10,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,7 +23,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop solution](./solution-screenshots/desktop.png)
-![Mobile solution](./solution-screenshots/mobile.png.png)
+![Mobile solution](./solution-screenshots/mobile.png)
 
 
 ### Links
