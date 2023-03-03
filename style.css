@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /* ### Primary */
+
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+
+/* ### Neutral */
+
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+.grid-center {
+    display: grid;
+    place-items: center;
+}
+.w-full {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.h-100vh {
+    height: 100vh;
+}
+.bg-main {
+    background-color: #fff;
+}
+.w-main {
+    width: 375px;
+}
+.my {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.p-xy {
+    padding:30px;
+}
+.rounded {
+    border-radius: 10px;
+}
+.mb {
+    margin-bottom: 10px;
+}
+span {
+    padding-left: 0.9rem;
+}
+.t-white {
+    color: var(--Very-pale-blue);
+    /* cursor: pointer; */
+}
+.fw-900 {
+    font-weight: 900;
+    color: var(--Dark-blue);
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-500 {
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+}
+
+.py {
+    padding: 10px 0;
+}
+
+.t-small {
+    font-size: small;
+    font-weight: 700;
+    color: var(--Bright-blue);
+}
+.t-small:hover {
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 0.7;
+}
+.text-align-center {
+    text-align: center;
+} 
+.plans {
+    background-color: var(--Very-pale-blue);
+    padding: 10px;
+}
+.bg-wrapper {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--Pale-blue);
+    background-position: top;
+}
+button {
+    background-color: var(--Bright-blue);
+    border: none;
+}
+button:hover{
+    opacity: 0.8;
+}
+.shadow{ 
+    box-shadow: 0px 10px 20px -10px var(--Bright-blue);
+}
+.cancel {
+    color: var(--Desaturated-blue);
+    font-size: small;
+    font-weight: 700;
+}
+.cancel:hover {
+    color: var(--Dark-blue);
+    cursor: pointer;
+}
+
+
+@media (width <= 400px) {
+    .bg-wrapper {
+        background-image: url("./images/pattern-background-mobile.svg");
+    }
+    .w-main {
+        width: 300px;
+    }
+    p {
+        font-size: small;
+    }   
+}
