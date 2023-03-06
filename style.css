@@ -29,20 +29,20 @@ body {
 }
 .w-full {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.6rem 0.6rem 0 0;
 }
 .h-100vh {
-    height: 100vh;
+    min-height: 100vh;
 }
 .bg-main {
     background-color: #fff;
 }
 .w-main {
-    width: 375px;
+    width: 23.4rem;
 }
 .my {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 .flex {
     display: flex;
@@ -60,13 +60,13 @@ body {
     justify-content: space-between;
 }
 .p-xy {
-    padding:30px;
+    padding: 1.8rem;
 }
 .rounded {
-    border-radius: 10px;
+    border-radius: 0.6rem;
 }
 .mb {
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 span {
     padding-left: 0.9rem;
@@ -88,7 +88,7 @@ span {
 }
 
 .py {
-    padding: 10px 0;
+    padding: 0.6rem 0;
 }
 
 .t-small {
@@ -106,7 +106,7 @@ span {
 } 
 .plans {
     background-color: var(--Very-pale-blue);
-    padding: 10px;
+    padding: 0.6rem;
 }
 .bg-wrapper {
     background-image: url("./images/pattern-background-desktop.svg");
@@ -123,7 +123,7 @@ button:hover{
     opacity: 0.8;
 }
 .shadow{ 
-    box-shadow: 0px 10px 20px -10px var(--Bright-blue);
+    box-shadow: 0px 0.6rem 1.25rem -0.6rem var(--Bright-blue);
 }
 .cancel {
     color: var(--Desaturated-blue);
@@ -141,17 +141,17 @@ button:hover{
         background-image: url("./images/pattern-background-mobile.svg");
     }
     .w-main {
-        width: 300px;
+        width: 18rem; /*300px;*/
     }
     p {
         font-size: small;
     }   
 }
-@media screen and (orientation:landscape) {
+/* @media screen and (orientation:landscape) {
     body {
         background-color: var(--Pale-blue);
         background-image: ;
         padding-top: 50px;
         padding-bottom: 50px;
     }
-}
+} */
